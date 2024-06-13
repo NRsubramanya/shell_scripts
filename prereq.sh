@@ -20,7 +20,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
-sudo apt-get install docker-ce=5:24.0.5-1~ubuntu.20.04~focal docker-ce-cli=5:24.0.5-1~ubuntu.20.04~focal containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce=5:24.0.5-1~ubuntu.20.04~focal docker-ce-cli=5:24.0.5-1~ubuntu.20.04~focal containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 sudo docker run hello-world
 
